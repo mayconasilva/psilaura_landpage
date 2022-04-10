@@ -75,7 +75,7 @@ header > nav > a:hover{
 }
 
 main > section#banner_agendamento{
-    height: 28vw;
+    max-height: 28vw;
     background-color: #D0EADD;
     background-image: url("../images/banners/banner_agendamento.jpg");
     background-size: cover;
@@ -83,6 +83,8 @@ main > section#banner_agendamento{
     background-attachment: fixed;
     padding: 0.4em;
     text-align: center;
+    min-height: max-content;
+
 }
 
 main > section#banner_agendamento > h1{
@@ -95,6 +97,7 @@ main > section#banner_agendamento > h1{
 main > section#banner_agendamento > p{
     font-size: 1.4em;
     padding: 23px;
+    line-height: 1.4em;
     
 }
 
@@ -121,8 +124,10 @@ main > section#banner_meconheca{
     background-image: url(../images/banners/banner_meconheca.png);
     background-size: cover;
     background-position: top center;
-    height: 32vw;
+    max-height: 32vw;
     padding: 16px;
+    min-height: max-content;
+
 }
 main > section#banner_meconheca > h1{
     color: #761DF2;
@@ -174,8 +179,10 @@ main > section#banner_blog{
     background-attachment: fixed;
     background-size: cover;
     background-position: center bottom;
-    height: 32vw;
+    max-height: 32vw;
     padding: 16px;
+    min-height: max-content;
+
     
 }
 
