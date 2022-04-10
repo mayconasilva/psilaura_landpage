@@ -23,6 +23,223 @@ html{
     scroll-behavior: smooth;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: var(--fonteparagrafo);
+    font-size: 1.2em;
+
+}
+
+header{
+    background-color: #AEC3BE;
+    font-family: var(--fontetitulo);
+    text-align: center; 
+    padding: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+
+header > h1{
+    font-size: 3em;
+    color: #FDFEFD;
+    padding-bottom: 1.3px;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+header > p{
+    font-family: 'Azeret Mono', monospace;
+    font-size: 1.3em;
+    color: #465952;
+}
+
+header > nav{
+    padding: 8px;
+    text-align: right;
+}
+
+header > nav > a{
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    padding-left: 3px;
+
+}
+
+header > nav > a:hover{
+    color: #FDFEFD;
+}
+
+main > section#banner_agendamento{
+    height: 28vw;
+    background-color: #D0EADD;
+    background-image: url("../images/banners/banner_agendamento.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0.4em;
+    text-align: center;
+}
+
+main > section#banner_agendamento > h1{
+    font-family: 'Catenary', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #465952;
+    padding-bottom: 1em;
+}
+
+main > section#banner_agendamento > p{
+    font-size: 1.4em;
+    padding: 23px;
+    
+}
+
+main > section#banner_agendamento > p.abordagem{
+    padding: 10px;
+}
+
+main > section#banner_agendamento > a{
+    font-size: 1.45em;
+    color: black;
+    text-decoration: none;
+    background-color: #02ffb7af;
+    margin: 30px;
+    padding: 6px;
+    border-radius: 300px;
+}
+
+main > section#banner_agendamento > a:hover{
+    background-color: #AEC3BE;
+}
+
+main > section#banner_meconheca{
+    background-color: #b8cfc2;
+    background-image: url(../images/banners/banner_meconheca.png);
+    background-size: cover;
+    background-position: top center;
+    height: 32vw;
+    padding: 16px;
+}
+main > section#banner_meconheca > h1{
+    color: #761DF2;
+    font-family: 'Catenary', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+main > section#banner_meconheca > p{
+    line-height: 1.4em;
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 13px;
+    width: 87vw;
+
+}
+
+main > section#banner_meconheca > p > a{
+    color: black;
+    text-decoration: none;
+}
+
+main > section#banner_meconheca > p > a:hover{
+    text-decoration: underline;
+}
+
+
+main > section#banner_meconheca > picture > legend{
+    font-weight: bold;
+    padding-bottom: 8px;
+    font-family: 'Azeret Mono', monospace;
+}
+
+
+main > section#banner_meconheca > picture> legend >  a{
+    color: black;
+    text-decoration: none;
+}
+
+main > section#banner_meconheca > picture> legend >  a:hover{
+    color: #465952;
+}
+
+
+main > section#banner_blog{
+    background-color: purple;
+    background-image: url(../images/banners/banner_blog.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    height: 32vw;
+    padding: 16px;
+    
+}
+
+main > section#banner_blog > h1{
+    color: #FDFEFD;
+    font-family: 'Catenary', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+main > section#banner_blog > div.post{
+    font-size: 1.8em;
+    line-height: 1.4em;
+    color: #b8cfc2;
+}
+
+main > section#banner_blog > div.post > a{
+    color: black;
+    text-decoration: none;
+}
+
+main > section#banner_blog > div.post > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #465952;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > h1{
+    color: #AEC3BE;
+}
+
+footer > p{
+    font-size: 0.8em;
+    color: #d9f1ec;
+    font-family: 'Azeret Mono', monospace;
+    padding: 5px;
+}
+
+footer > p > a{
+    color: #d9f1ec;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
+
+footer > ul> li > a{
+    color: #AEC3BE;
+    text-decoration: none;
+
+}
+
+footer > ul> li > a:hover{
+    color: #AEC3BE;
+    text-decoration: underline;
+
+}
 .reg_crp{
     
     font-family: var(--fontemono);
@@ -32,5 +249,7 @@ html{
 .perfil{
     border-radius: 300px;
     max-width: 15%;
+    padding-bottom: 16px;
+    
 
 }
