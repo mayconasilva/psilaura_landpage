@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Faustina:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap');
+@font-face {
+    font-family: Catenary;
+    src: url(../fontes/Catenary-Stamp.ttf);
+
+};
+
+:root{
+
+    --color0: #4D625C;
+    --color1: #AEC3BE;
+    --color2: #FDFEFD;
+
+    --fontetitulo: 'Catenary', Arial, Helvetica, sans-serif;
+    --fontemono: 'Azeret Mono', monospace;
+    --fonteparagrafo: 'Faustina', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --fontecursiva: 'Permanent Marker', cursive;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.reg_crp{
+    
+    font-family: var(--fontemono);
+    font-weight: bold;
+}
+
+.perfil{
+    border-radius: 300px;
+    max-width: 15%;
+
+}
