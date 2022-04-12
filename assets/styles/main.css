@@ -39,12 +39,19 @@ header{
     background-color: #AEC3BE;
     font-family: var(--fontetitulo);
     text-align: center; 
-    padding: 5px;
     box-shadow: 1px 1px 3px black;
 }
 
+header > aside{
+    font-size: 1.15em;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+
 header > h1{
-    font-size: 3em;
+    font-size: 2.4em;
     color: #FDFEFD;
     padding-bottom: 1.3px;
     text-shadow: 1px 1px 3px black;
@@ -81,9 +88,10 @@ main > section#banner_agendamento{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    padding: 0.4em;
+    padding: 1em;
     text-align: center;
     min-height: max-content;
+    max-height: max-content;
 
 }
 
@@ -95,9 +103,9 @@ main > section#banner_agendamento > h1{
 }
 
 main > section#banner_agendamento > p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding: 23px;
-    line-height: 1.4em;
+    line-height: 5vw;
     
 }
 
@@ -110,7 +118,7 @@ main > section#banner_agendamento > a{
     color: black;
     text-decoration: none;
     background-color: #02ffb7af;
-    margin: 30px;
+    margin: 38px;
     padding: 6px;
     border-radius: 300px;
 }
@@ -127,6 +135,8 @@ main > section#banner_meconheca{
     max-height: 32vw;
     padding: 16px;
     min-height: max-content;
+    text-align: center;
+    max-height: max-content;
 
 }
 main > section#banner_meconheca > h1{
@@ -138,11 +148,12 @@ main > section#banner_meconheca > h1{
 }
 
 main > section#banner_meconheca > p{
-    line-height: 1.4em;
+    line-height: 5vh;
     text-align: justify;
     hyphens: auto;
     text-indent: 13px;
     width: 87vw;
+    font-size: 1em;
 
 }
 
@@ -195,7 +206,7 @@ main > section#banner_blog > h1{
 }
 
 main > section#banner_blog > div.post{
-    font-size: 1.8em;
+    font-size: 1.3em;
     line-height: 1.4em;
     color: #b8cfc2;
 }
@@ -255,8 +266,8 @@ footer > ul> li > a:hover{
 
 .perfil{
     border-radius: 300px;
-    max-width: 15%;
+    min-width: 150px;
+    max-width: 250px;
     padding-bottom: 16px;
-    
 
 }
