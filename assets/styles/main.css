@@ -40,10 +40,11 @@ header{
     font-family: var(--fontetitulo);
     text-align: center; 
     box-shadow: 1px 1px 3px black;
+    min-height: max-content;
 }
 
 header > aside{
-    font-size: 1.15em;
+    font-size: 0.8em;
     background-color: black;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -65,7 +66,7 @@ header > p{
 }
 
 header > nav{
-    padding: 8px;
+    padding: 2px;
     text-align: right;
 }
 
@@ -185,12 +186,12 @@ main > section#banner_meconheca > picture> legend >  a:hover{
 
 
 main > section#banner_blog{
-    background-color: purple;
+    background-color: rgb(223, 12, 223);
     background-image: url(../images/banners/banner_blog.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center bottom;
-    max-height: 32vw;
+    max-height: 40vw;
     padding: 16px;
     min-height: max-content;
 
@@ -206,7 +207,7 @@ main > section#banner_blog > h1{
 }
 
 main > section#banner_blog > div.post{
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #b8cfc2;
 }
